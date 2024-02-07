@@ -17,7 +17,7 @@ server.use(cookieParser())
 server.set("trust proxy", 1); // trust first prox
 
 //Ruta index, middleware que junta todas las rutas para pasarla a 1
-server.use("/api",indexRouter);
+server.use("/api", indexRouter);
 
 // Error catching endware.
 server.use(ErrorCatchEndware);

@@ -22,7 +22,7 @@ console.log(process.env.PORT)
 export const config: Configuration = {
   port: process.env.PORT || 3500,
   host: process.env.DB_HOST || "",
-  database: process.env.DB_NAME || "mongodb://127.0.0.1:27017/notEnvironment",
+  database: process.env.DB_NAME || "mongodb+srv://ALONGER:ALONGER@alonger.rcdo1ou.mongodb.net/?retryWrites=true&w=majority",
   username: process.env.DB_USER || "",
   password: process.env.DB_PASS || "",
 };
