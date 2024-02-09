@@ -1,10 +1,10 @@
-import { Establishment } from "./establishment.interface";
+import { Types } from "mongoose";
 
-export interface Site {
+export interface Isite {
     _id?: string;
     name: string;
     date: string;
-    establishment: Establishment[];
+    establishment: Types.ObjectId;
     referent?: string;
     hourInit: string;
     hourFin: string;

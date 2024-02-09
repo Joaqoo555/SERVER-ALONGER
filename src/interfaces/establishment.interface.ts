@@ -1,10 +1,10 @@
-import { Equipment } from "./equipment.interfaces";
+import { Types } from "mongoose";
 
-export interface Establishment {
+export interface Iestablishment {
     _id?: string;
     name: string;
-    date: string;
-    equipment: Equipment[];
+    date?: string;
+    equipment:Types.ObjectId;
     referent: string;
     
 }

@@ -1,10 +1,10 @@
-import Dd from "./dd.interfaces";
+import { Types } from "mongoose";
 
-export interface Equipment {
+export interface Iequipment {
     _id?: string;
     name: string;
     value: number;
-    type?: Dd[]
+    dd?: Types.ObjectId;
     numberOfDd?: number
     typeDefault?: ETypeDefault.IA | ETypeDefault.NA;
     observations: string;

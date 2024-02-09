@@ -1,7 +1,6 @@
-import userModel from "./users.model";
-// import roleModel from "./roles.model";
+import siteModel from "./site.model";
+
 
 export {
-    userModel,
-    // roleModel
+    siteModel,
 }

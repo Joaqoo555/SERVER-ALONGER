@@ -1,4 +1,4 @@
-export default interface Dd {
+export default interface Idd {
     _id?: string;
     count: number;
     type: ETypeDd.T | ETypeDd.b
